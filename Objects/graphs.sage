@@ -27,6 +27,7 @@ all_graphs = []
 # Removed graphs.CameronGraph() for issue with MathieuGroup(22) load
 # Removed graphs.JankoKharaghaniTonchevGraph() for lipGAP error
 # Removed graphs.M22Graph() for issue with MathieuGroup(22) load
+# Removed graphs.TruncatedIcosidodecahedralGraph() for AlternatingGroupCons issue
 
 sage_graphs = [graphs.BullGraph(), graphs.ButterflyGraph(), graphs.ClawGraph(),
 graphs.DiamondGraph(), graphs.HouseGraph(), graphs.HouseXGraph(), graphs.Balaban10Cage(),
@@ -50,7 +51,7 @@ graphs.MoebiusKantorGraph(), graphs.NauruGraph(), graphs.PappusGraph(),
 graphs.PoussinGraph(), graphs.PerkelGraph(), graphs.PetersenGraph(), graphs.RobertsonGraph(),
 graphs.ShrikhandeGraph(), graphs.SimsGewirtzGraph(),
 graphs.SousselierGraph(), graphs.SylvesterGraph(), graphs.SzekeresSnarkGraph(),
-graphs.ThomsenGraph(), graphs.TietzeGraph(), graphs.TruncatedIcosidodecahedralGraph(),
+graphs.ThomsenGraph(), graphs.TietzeGraph(), 
 graphs.TruncatedTetrahedralGraph(), graphs.Tutte12Cage(), graphs.TutteCoxeterGraph(),
 graphs.TutteGraph(), graphs.WagnerGraph(), graphs.WatkinsSnarkGraph(), graphs.WellsGraph(),
 graphs.WienerArayaGraph(),
