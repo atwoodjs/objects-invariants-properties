@@ -26,6 +26,7 @@ all_graphs = []
 # Removed graphs.McLaughlinGraph() and graphs.LocalMcLaughlinGraph() due to needing extra packages.
 # Removed graphs.CameronGraph() for issue with MathieuGroup(22) load
 # Removed graphs.JankoKharaghaniTonchevGraph() for lipGAP error
+# Removed graphs.M22Graph() for issue with MathieuGroup(22) load
 
 sage_graphs = [graphs.BullGraph(), graphs.ButterflyGraph(), graphs.ClawGraph(),
 graphs.DiamondGraph(), graphs.HouseGraph(), graphs.HouseXGraph(), graphs.Balaban10Cage(),
@@ -43,7 +44,7 @@ graphs.HeawoodGraph(), graphs.HerschelGraph(), graphs.HigmanSimsGraph(), graphs.
 graphs.HoffmanSingletonGraph(), graphs.HoltGraph(), graphs.HortonGraph(),
 graphs.IoninKharaghani765Graph(), graphs.KittellGraph(),
 graphs.KrackhardtKiteGraph(), graphs.Klein3RegularGraph(), graphs.Klein7RegularGraph(),
-graphs.LjubljanaGraph(), graphs.M22Graph(),
+graphs.LjubljanaGraph(), 
 graphs.MarkstroemGraph(), graphs.McGeeGraph(),
 graphs.MoebiusKantorGraph(), graphs.NauruGraph(), graphs.PappusGraph(),
 graphs.PoussinGraph(), graphs.PerkelGraph(), graphs.PetersenGraph(), graphs.RobertsonGraph(),
