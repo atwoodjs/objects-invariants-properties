@@ -66,8 +66,8 @@ add_to_lists(graphs.IoninKharaghani765Graph(), problem_graphs, all_graphs)
 #temp1 = graphs.Cell120()
 #temp1.name(new = "Cell120")
 
-temp2 = graphs.Cell600()
-temp2.name(new = "Cell600")
+#temp2 = graphs.Cell600()
+#temp2.name(new = "Cell600")
 
 temp3 = graphs.MathonStronglyRegularGraph(0)
 temp3.name(new = "Mathon Strongly Regular Graph 0")
@@ -78,8 +78,8 @@ temp4.name(new = "Mathon Strongly Regular Graph 1")
 temp5 = graphs.MathonStronglyRegularGraph(2)
 temp5.name(new = "Mathon Strongly Regular Graph 2")
 
-# Removed Cell120 for Alternating Group issue
-for graph in sage_graphs + [temp2, temp3, temp4, temp5]:
+# Removed Cell120,Cell600 for Alternating Group issue
+for graph in sage_graphs + [temp3, temp4, temp5]:
     add_to_lists(graph, graph_objects, all_graphs)
 
 add_to_lists(graphs.WorldMap(), non_connected_graphs, all_graphs)
