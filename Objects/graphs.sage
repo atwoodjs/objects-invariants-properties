@@ -24,13 +24,14 @@ all_graphs = []
 # MeredithGraph and SchlaefliGraph are in the Problem Graphs list
 
 # Removed graphs.McLaughlinGraph() and graphs.LocalMcLaughlinGraph() due to needing extra packages.
+# Removed graphs.CameronGraph() for issue with MathieuGroup(22) load
 
 sage_graphs = [graphs.BullGraph(), graphs.ButterflyGraph(), graphs.ClawGraph(),
 graphs.DiamondGraph(), graphs.HouseGraph(), graphs.HouseXGraph(), graphs.Balaban10Cage(),
 graphs.Balaban11Cage(), graphs.BidiakisCube(),
 graphs.BiggsSmithGraph(), graphs.BlanusaFirstSnarkGraph(), graphs.BlanusaSecondSnarkGraph(),
 graphs.BrinkmannGraph(), graphs.BrouwerHaemersGraph(), graphs.BuckyBall(),
-graphs.ChvatalGraph(), graphs.ClebschGraph(), graphs.CameronGraph(),
+graphs.ChvatalGraph(), graphs.ClebschGraph(),
 graphs.CoxeterGraph(), graphs.DesarguesGraph(), graphs.DejterGraph(), graphs.DoubleStarSnark(),
 graphs.DurerGraph(), graphs.DyckGraph(), graphs.EllinghamHorton54Graph(),
 graphs.EllinghamHorton78Graph(), graphs.ErreraGraph(), graphs.F26AGraph(), graphs.FlowerSnark(),
